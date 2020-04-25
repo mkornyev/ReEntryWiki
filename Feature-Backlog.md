@@ -30,3 +30,6 @@ Features yet to be implemented are detailed here.
 ### 2. Resource#create/edit :: Tag checkboxes
 * The checkbox list isn't scalable to many tags.
 * `Use a beter selector`
+
+### 3. Resource#edit :: Images 
+* Images cannot be removed once added to a resource.
