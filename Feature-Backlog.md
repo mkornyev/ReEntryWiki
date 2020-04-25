@@ -1,4 +1,4 @@
-# Feature Backlog / Further Development 
+# Feature Backlog & Further Development 
 
 Features yet to be implemented are detailed here.
 
