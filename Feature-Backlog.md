@@ -4,13 +4,16 @@ Features yet to be implemented are detailed here.
 
 ## A Level (Critical)
 
-### 1. Expiring Login Tokens:
+### 1. Expiring Login Tokens
 * No expiry is set for currently logged in users 
 * `An expiry token should be stored in the cookie`
 
+### 2. Hard coded URLs 
+* The SMS and Email templates use hard-coded application paths for links. 
+
 <br>
 
-## B Level (Non-essential, but impair the usability of the system)
+## B Level (Usability Impairing)
 
 ### 1. Referral#create :: wait time 
 * SMS and Email notifications are dispatched on the main thread, resulting in a long wait time before the server can render the returned page. 
