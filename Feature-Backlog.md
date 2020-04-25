@@ -9,6 +9,7 @@ Features yet to be implemented are detailed here.
 * `An expiry token should be stored in the cookie`
 
 <br>
+
 ## B Level (Non-essential, but impair the usability of the system)
 
 ### 1. Referral#create :: wait time 
@@ -16,6 +17,7 @@ Features yet to be implemented are detailed here.
 * `Calls to the sendSMS and sendEmail referral model functions should be dispatched on separate threads`
 
 <br>
+
 ## C Level (Nice to have)
 
 ### 1. Referral#create :: CaseLoad selector
