@@ -2,6 +2,8 @@
 
 Features yet to be implemented are detailed here.
 
+<br>
+
 ## A Level (Critical)
 
 ### 1. Expiring Login Tokens
@@ -19,6 +21,10 @@ Features yet to be implemented are detailed here.
 * SMS and Email notifications are dispatched on the main thread, resulting in a long wait time before the server can render the returned page. 
 * `Calls to the sendSMS and sendEmail referral model functions should be dispatched on separate threads`
 
+### 2. Resource#edit :: Images 
+* Images cannot be removed once added to a resource.
+* `Use an ImageField and override the entire image upload mechanism` OR `add a link (with a remove image action) to the resource form`
+
 <br>
 
 ## C Level (Nice to have)
@@ -30,7 +36,3 @@ Features yet to be implemented are detailed here.
 ### 2. Resource#create/edit :: Tag checkboxes
 * The checkbox list isn't scalable to many tags.
 * `Use a beter selector`
-
-### 3. Resource#edit :: Images 
-* Images cannot be removed once added to a resource.
-* `Use an ImageField and override the entire image upload mechanism` OR `add a link (with a remove image action) to the resource form`
