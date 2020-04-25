@@ -25,4 +25,8 @@ Features yet to be implemented are detailed here.
 
 ### 1. Referral#create :: CaseLoad selector
 * When selecting a user from the caseload, the `select` dropdown used is not scalable to many users.
-* `Implement a search functionality `
+* `Implement search functionality`
+
+### 2. Resource#create/edit :: Tag checkboxes
+* The checkbox list isn't scalable to many tags.
+* `Use a beter selector`
