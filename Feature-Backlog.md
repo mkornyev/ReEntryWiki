@@ -33,3 +33,4 @@ Features yet to be implemented are detailed here.
 
 ### 3. Resource#edit :: Images 
 * Images cannot be removed once added to a resource.
+* `Use an ImageField and override the entire image upload mechanism` OR `add a link (with a remove image action) to the resource form`
