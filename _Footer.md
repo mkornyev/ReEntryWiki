@@ -1,0 +1,1 @@
+&copy; 2020 :: <a href="https://github.com/mkornyev">Max Kornyev</a> | <a href="https://github.com/epiccrash">Joey Perrino</a> | <a href="https://github.com/brentthongg">Brent Hong</a>
