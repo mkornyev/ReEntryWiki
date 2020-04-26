@@ -13,6 +13,11 @@ Features yet to be implemented are detailed here.
 ### 2. Hard coded URLs 
 * The SMS and Email templates use hard-coded application paths for links. 
 
+### 3. System Testing 
+* The system lacks seriously in code coverage and view testing. Most notably...
+1. Concurrency Tolerance
+* There has been no testing of concurrency in the system.
+
 <br>
 
 ## B Level (Usability Impairing)
