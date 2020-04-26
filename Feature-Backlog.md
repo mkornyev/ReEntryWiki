@@ -15,8 +15,8 @@ Features yet to be implemented are detailed here.
 
 ### 3. System Testing 
 * The system lacks seriously in code coverage and view testing. Most notably...
-1. Concurrency Tolerance
-* There has been no testing of concurrency in the system.
+1. **Concurrency Tolerance:** There has been no testing of concurrency in the system. It's possible that certain Admin / SOW actions can bring the system to an unexpected state. 
+* `At minimum, effected view actions can be turned into django transactions`
 
 <br>
 
