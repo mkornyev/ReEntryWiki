@@ -1,5 +1,3 @@
-# Technical / Organizational Contacts
-
 Contact info for the stakeholders of this repository 
 
 ### Technical Contact, most current
