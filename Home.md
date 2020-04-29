@@ -31,6 +31,8 @@ The system serves ReEntry412 in two capacities.
 * Unique Visit Tracking: Unique visits to site resources are tracked in the backend. The server checks the visitor's cookie, and increments the view count depending on whether their browser has see a particular resource or not. 
 * Password Resets: via the basic `django.contrib.auth` library
 
+***
+
 ## Internal Documentation (code-level)
 
 ## External Documentation (general onboarding docs) 
