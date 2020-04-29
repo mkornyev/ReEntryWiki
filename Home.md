@@ -2,14 +2,7 @@
 
 ### Introduction
 
-This repository belongs to the Pittsburgh-based nonprofit, ReEntry412. The NewERA412 platform was built by student consultants in <span style="color: indianred;">67-373, Information Systems Consulting Project, @ Carnegie Mellon University</span>.
-
-```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-```
+This repository belongs to the Pittsburgh-based nonprofit, ReEntry412. The NewERA412 platform was built by student consultants in 67-373, Information Systems Consulting Project, ```diff- @ Carnegie Mellon University```.
 
 The project is now maintained by <a href="mailto:jlucas@workhardpgh.com">Josh Lucas</a> and the fine tech staff at <a href="https://workhardpgh.com">WorkHardPgh</a>
 
