@@ -19,11 +19,20 @@ The system serves ReEntry412 in two capacities.
 * User management (`CRUD`) for two types of users:
   1. __Street Outreach Workers:__ only able to view resources, create referrals, and manage their caseload
   2. __Admins:__ are given complete CRUD privileges as well as access to backend KPI's
-* CaseLoad management, where system Users can add constituents to their caseloads (`CRUD`)
-* Referral Creation:
- 1. __In System:__ 
+* CaseLoadUser management, where system SOWs/Admins can add constituents to their caseloads (`CRUD`)
+* Referral Creation: 
+  1. __In System:__ An Admin/SOW can refer a CaseLoadUser some system resources (via phone or email)
+  2. __Out of System:__ Ditto but no CaseLoadUser object is needed (only a phone or email)
+  * __NOTE:__ Referral notification links are used to confirm whether a user accessed a sent referral. This is done by hardcoding a query param into the URL's link, then matching it with a referral in the backend. See documentation on the Resource#index action for more info.
+* EMAIL/SMS Notifications: When a referral is made, the end-user is notified 
+  1. __via Email:__ using `django.core.mail`
+  2. __via SMS:__ using an API key for the `Twilio messaging service`
+* KPI Exports: system KPI's are aggregated and exported to Excel
+* Unique Visit Tracking: Unique visits to site resources are tracked in the backend. The server checks the visitor's cookie, and increments the view count depending on whether their browser has see a particular resource or not. 
+* Password Resets: via the basic `django.contrib.auth` library
 
+## Internal Documentation (code-level)
 
-## External Documentation Links 
+## External Documentation (general onboarding docs) 
 * Onboarding documents:
 1. <a href="">A link</a>
