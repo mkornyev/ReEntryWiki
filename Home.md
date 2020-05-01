@@ -33,8 +33,6 @@ The system serves ReEntry412 in two capacities.
 
 ***
 
-## Internal Documentation (code-level)
-
 ## External Documentation (general onboarding docs) 
 * Onboarding documents:
 1. <a href="https://docs.google.com/document/d/14lV7LetxAvPJ9m-_OqEKzMIXFnvkgHvxLV6P2vAvPdE/edit?usp=sharing">NewERA412 SOW Training Document (view only)</a>
