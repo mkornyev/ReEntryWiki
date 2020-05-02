@@ -4,7 +4,7 @@ Contact info for the stakeholders of this repository
 * Josh Lucas | jlucas@workhardpgh.com | <a href="https://workhardpgh.com">WorkHardPGH</a>
 
 ### Organizational Contact
-* Taili Thompson | Taili.Thompson@alleghenycounty.us
+* Taili Thompson | bvbaseball42@gmail.com
 
 ### Student Consultants, Spring 2020 
 * Max Kornyev | mkornyev@gmail.com
