@@ -1,7 +1,7 @@
 This page contains a breakdown of the models within the system.
 
 ## ERD
-![Entity Relationship Diagram for the NewERA platform](https://drive.google.com/file/d/1MoR7NglzlB7UrP2poZhehi4HtH9fYRDk/view?usp=sharing)
+![Entity Relationship Diagram for the NewERA platform](https://drive.google.com/file/d/1MoR7NglzlB7UrP2poZhehi4HtH9fYRDk)
 https://drive.google.com/file/d/1MoR7NglzlB7UrP2poZhehi4HtH9fYRDk/view?usp=sharing
 
 ## Models
