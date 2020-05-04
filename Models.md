@@ -21,8 +21,10 @@ Represents a transaction of resources made by a single User. Referrals must have
   2. Referral Tracking: The system uses a verification mechanism to check whether a referral link (for a particular resource) was accessed by the user. It does this by generating a `created_at` object for the referral, and appending it as a querystring to each link. If the param is seen again by the server (in the __get_resource__ or __home__ actions), the `markReferralAsSeen()` function matches the timestamp to a referral marks it as seen. `THIS IS A CRUCIAL APPLICATION MECHANISM` 
     * Although collisions are possible, they are highly unlikely. The `Str()` representation of the object contains SIX decimal points. [Read more here](https://docs.python.org/2/library/datetime.html#datetime.datetime.__str__)
 
-### Resource
+### `Resource`
 Represents the basic item used in referrals and which can be accessed freely on the site. Resources are referred to individuals, but they can exist without being referred. A resource can also have many tags, though it does not need any.
+* Resource Images (type: [`django.db.models.fields.FileField`](https://docs.djangoproject.com/en/3.0/ref/models/fields/#filefield)):
+  * These are stored in the application's `MEDIA_ROOT` directory (currently `NewERA/user_uploads`)
 
-### Tag
+### `Tag`
 Represents a category that a resource fits into. Used specifically in filtering resources. Resources can have multiple tags, and tags can have multiple resources, but a resource does not need to be tagged, and a tag does not need to be associated with any resources.
