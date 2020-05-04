@@ -27,7 +27,7 @@ The system serves ReEntry412 in two capacities.
 * Referral Creation: 
   1. __In System Referral:__ An Admin/SOW can refer a CaseLoadUser some system resources (via phone or email)
   2. __Out of System Referral:__ Ditto but no CaseLoadUser object is needed (only a phone or email)
-  * __NOTE:__ _Referral links_ (sent in referral notifications) are used to confirm whether a user accessed a sent referral. This is done by hardcoding a query param into the URL's link, then matching it with a referral in the backend. See documentation on the Resource#index action for more info.
+  * __NOTE:__ _Referral links_ (sent in referral notifications) are used to confirm whether a user accessed a sent referral. This is done by hardcoding a query param into the URL's link, then matching it with a referral in the backend. See documentation on the [Resource model](https://github.com/mkornyev/ReEntry412/wiki/Models#referral) for more info.
 
 * EMAIL/SMS Notifications: When a referral is made, the end-user is notified 
   1. __via Email:__ using `django.core.mail`
