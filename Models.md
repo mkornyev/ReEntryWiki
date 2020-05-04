@@ -27,7 +27,7 @@ Represents the basic item used in referrals and which can be accessed freely on 
   * These are stored in the application's `MEDIA_ROOT` directory (currently `NewERA/user_uploads`)
   * They are validated by the ResourceForm, and have an upload limit.
   * A `content_type` field is used to store image types: This is required because prior to validation, images are stored as an in memory type (native) and then converted to a FileField type, thereby losing their .content_type attributes. See the try/except block in __views.py__ `edit_resource` function. 
-  * The default Django forms mechanism is not used to implement uploads. Instead, images they are removed from the filesystem manually 
+  * The default Django forms mechanism is not used to implement uploads. Instead, images are added and removed from the filesystem manually 
 
 ### `Tag`
 Represents a category that a resource fits into. Used specifically in filtering resources. Resources can have multiple tags, and tags can have multiple resources, but a resource does not need to be tagged, and a tag does not need to be associated with any resources.
