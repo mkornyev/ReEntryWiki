@@ -6,6 +6,8 @@ This repository belongs to the Pittsburgh-based nonprofit, ReEntry412. The NewER
 
 The project is now maintained by <a href="mailto:jlucas@workhardpgh.com">Josh Lucas</a> and the fine tech staff at <a href="https://workhardpgh.com">WorkHardPgh</a>
 
+[See the final Project Report, Executive Summary, and all other project deliverables.](https://drive.google.com/drive/folders/1nboYF8gkQtcb2QXesKLhCReo5koS-XAs?usp=sharing)
+
 ***
 
 ## Quick Summary 
