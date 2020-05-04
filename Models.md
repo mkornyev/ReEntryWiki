@@ -6,7 +6,8 @@ https://drive.google.com/file/d/1MoR7NglzlB7UrP2poZhehi4HtH9fYRDk/view?usp=shari
 ## Models
 
 ### User
-Defines a user that has an account associated with the system; they are either an admin or an SOW. Extends Django's AbstractUser class, so the user can log in and out of the system and has the ability to change or reset their passwords. *is_superuser* corresponds with *admin*, and *is_staff* corresponds with an *SOW*.
+Defines a user that has an account associated with the system; they are either an admin or an SOW. Extends Django's AbstractUser class, so the user can log in and out of the system and has the ability to change or reset their passwords. 
+__*is_superuser* corresponds with *admin*, and *is_staff* corresponds with an *SOW*.__
 
 ### CaseLoadUser
 Defines an individual on a user's case load. CaseLoadUsers cannot log into the system. A CaseLoadUser can only belong to one User.
