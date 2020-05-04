@@ -11,7 +11,7 @@ The project is now maintained by <a href="mailto:jlucas@workhardpgh.com">Josh Lu
 ## Quick Summary 
 
 The system serves ReEntry412 in two capacities. 
-1. As an accessible platform for searchable NewERA resources
+1. As an accessible public platform for searchable NewERA resources
 2. As a CRM internal to the organization 
 
 
