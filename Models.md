@@ -14,8 +14,12 @@ Defines an individual on a user's case load. CaseLoadUsers cannot log into the s
 * Admins see all `CaseLoadUser`s
 * SOWs see only those belonging to them
 
-### Referral
-Represents a transaction of resources made by a single User. Referrals must have a User, but they do not need a CaseLoadUser. A referral without a CaseLoadUser represents a referral to someone out of the app system, while a referral with a CaseLoadUser represents a referral to a User's CaseLoadUser. A referral can include many resources.
+### `Referral`
+Represents a transaction of resources made by a single User. Referrals must have a User, but they do not need a CaseLoadUser. A referral without a CaseLoadUser represents an out-of-system referral, while a referral with a CaseLoadUser represents a referral to a User's CaseLoadUser. A referral can include many resources.
+* __Notifications:__ 
+  1. Types: The referral model contains `sendSMS` and `sendEmail` methods that fire when a referral is created 
+  2. Referral Tracking: The system uses a verification mechanism to check whether a referral link (for a particular resource) was accessed by the user. It does this by generating a `created_at` object for the referral, and appending it as a querystring to each link. If the param is seen again by the server (in the __get_resource__ or __home__ actions), the `markReferralAsSeen()` function matches the timestamp to a referral marks it as seen. `THIS IS A CRUCIAL APPLICATION MECHANISM` 
+    * Although collisions are possible, they are highly unlikely. The `Str()` representation of the object contains SIX decimal points. [Read more here](https://docs.python.org/2/library/datetime.html#datetime.datetime.__str__)
 
 ### Resource
 Represents the basic item used in referrals and which can be accessed freely on the site. Resources are referred to individuals, but they can exist without being referred. A resource can also have many tags, though it does not need any.
