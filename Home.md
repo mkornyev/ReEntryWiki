@@ -22,7 +22,7 @@ The system serves ReEntry412 in two capacities.
   1. __Street Outreach Workers:__ only able to view resources, create referrals, and manage their caseload
   2. __Admins:__ are given complete CRUD privileges as well as access to backend KPI's
 
-* CaseLoadUser management, where system SOWs/Admins can add constituents to their caseloads (`CRUD`)
+* CaseLoad management, where system SOWs/Admins can add constituents to their caseloads (`CRUD`)
 
 * Referral Creation: 
   1. __In System Referral:__ An Admin/SOW can refer a CaseLoadUser some system resources (via phone or email)
