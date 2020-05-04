@@ -1,4 +1,5 @@
 **Table Of Contents**
 
-1. [Home](Home)	
-1. [Models](Models)	
+1. [Intro](Home)	
+2. [Model Breakdown](Models)	
+3. [View Actions](View Actions)	
